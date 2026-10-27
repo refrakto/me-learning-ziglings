@@ -1,0 +1,13 @@
+{
+   "name": "Me learning Ziglings",
+   "build": { "dockerfile": "./Dockerfile" },
+   "customizations": {
+      "vscode": {
+         "extensions": ["kylinideteam.kylin-clangd", "ziglang.vscode-zig", "github.github-vscode-theme"],
+         "settings": {
+            "terminal.integrated.defaultProfile.linux": "bash",
+            "terminal.integrated.profiles.linux": { "bash": { "path": "/bin/bash" } }
+         }
+      }
+   }
+}
